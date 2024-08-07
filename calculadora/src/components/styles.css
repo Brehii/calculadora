@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url('https://th.bing.com/th/id/R.99252b0fc39024ce75d5bd638667fe34?rik=gU1rIFvgI9xTDw&riu=http%3a%2f%2fwww.truthsurvival.com%2fwp-content%2fuploads%2f2019%2f05%2fHow-to-Pick-a-Lock-Lock-Picks.jpg&ehk=8nw0XESUpa0QrJJV21YhLM045t3iL33o9FqrthFCo2s%3d&risl=&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  background-color: #f3eded86; 
+  height: 250px;
+  width: 450px;
+  text-align: center;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu h2 {
+  margin-top: 0;
+  color: #333; 
+}
+
+.menu p {
+  color: #555;
+}
+
+.menu button {
+  background-color: #007bff; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; 
+  font-size: 16px;
+  cursor: pointer; 
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+  background-color: #0056b3; 
+}
+
+.menu button:focus {
+  outline: none; 
+}
